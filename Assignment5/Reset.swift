@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Reset {
+    
+    let status: String
+    
+    init(status: String) {
+        self.status = status
+    }
+}
