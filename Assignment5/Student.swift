@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+class Student {
+    let firstName: String
+    let lastName: String
+    let redid: String
+    let password: String
+    let email: String
+    
+    init(firstName: String, lastName: String, redid: String, password: String, email: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.redid = redid
+        self.password = password
+        self.email = email
+    }
+}

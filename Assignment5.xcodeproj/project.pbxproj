@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		EB4D2269219CE92C00887194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2268219CE92C00887194 /* AppDelegate.swift */; };
-		EB4D226B219CE92C00887194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D226A219CE92C00887194 /* ViewController.swift */; };
 		EB4D226E219CE92C00887194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D226C219CE92C00887194 /* Main.storyboard */; };
 		EB4D2270219CE93300887194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4D226F219CE93300887194 /* Assets.xcassets */; };
 		EB4D2273219CE93300887194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2271219CE93300887194 /* LaunchScreen.storyboard */; };
 		EB4D227E219CE93300887194 /* Assignment5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D227D219CE93300887194 /* Assignment5Tests.swift */; };
 		EB4D2289219CE93300887194 /* Assignment5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2288219CE93300887194 /* Assignment5UITests.swift */; };
+		EB4D2297219CEEFF00887194 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2296219CEEFF00887194 /* LoginViewController.swift */; };
+		EB4D2299219CF48600887194 /* SubjectListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2298219CF48600887194 /* SubjectListAPI.swift */; };
+		EB4D229B219CF58B00887194 /* ClassIDsListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D229A219CF58B00887194 /* ClassIDsListAPI.swift */; };
+		EB4D229D219CF90D00887194 /* SubjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D229C219CF90D00887194 /* SubjectList.swift */; };
+		EB4D229F219CF91A00887194 /* ClassIDsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D229E219CF91A00887194 /* ClassIDsList.swift */; };
+		EB4D22A1219D01F400887194 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22A0219D01F400887194 /* Subject.swift */; };
+		EB4D22A3219D0C0F00887194 /* ClassID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22A2219D0C0F00887194 /* ClassID.swift */; };
+		EB4D22A5219D0FEB00887194 /* ClassDetailsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22A4219D0FEB00887194 /* ClassDetailsAPI.swift */; };
+		EB4D22A7219D113300887194 /* ClassDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22A6219D113300887194 /* ClassDetails.swift */; };
+		EB4D22A9219D11AB00887194 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22A8219D11AB00887194 /* Details.swift */; };
+		EB4D22C3219D261500887194 /* ResetStudentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22C2219D261500887194 /* ResetStudentAPI.swift */; };
+		EB4D22C5219D26EB00887194 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22C4219D26EB00887194 /* Reset.swift */; };
+		EB4D22C7219D271500887194 /* ResetStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22C6219D271500887194 /* ResetStudent.swift */; };
+		EB670F35219F7B11003C9F91 /* FindCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB670F34219F7B11003C9F91 /* FindCoursesViewController.swift */; };
+		EB670F37219F8862003C9F91 /* MyClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB670F36219F8862003C9F91 /* MyClassesViewController.swift */; };
+		EB8C348A219E8B8A00D22275 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8C3489219E8B8A00D22275 /* RegisterViewController.swift */; };
+		EBA0655321A63ACF002A8FD3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0655221A63ACF002A8FD3 /* Student.swift */; };
+		EBA3CBC421A3A210003496F0 /* UnregisterClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3CBC321A3A210003496F0 /* UnregisterClassViewController.swift */; };
+		EBA3CBC621A3A220003496F0 /* UnwaitlistClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3CBC521A3A220003496F0 /* UnwaitlistClassViewController.swift */; };
+		EBE0B9DB21A0B88300CB7ECC /* CoursesFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0B9DA21A0B88300CB7ECC /* CoursesFoundViewController.swift */; };
+		EBE0B9E121A0EEB600CB7ECC /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0B9E021A0EEB600CB7ECC /* CourseCell.swift */; };
+		EBE0B9E321A23B5900CB7ECC /* ClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0B9E221A23B5800CB7ECC /* ClassDetailViewController.swift */; };
+		EBE0B9E721A25D5E00CB7ECC /* RegisteredCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0B9E621A25D5E00CB7ECC /* RegisteredCourseCell.swift */; };
+		EBE0B9E921A25DA500CB7ECC /* WaitlistedCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE0B9E821A25DA500CB7ECC /* WaitlistedCourseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +59,6 @@
 /* Begin PBXFileReference section */
 		EB4D2265219CE92C00887194 /* Assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4D2268219CE92C00887194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4D226A219CE92C00887194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB4D226D219CE92C00887194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4D226F219CE93300887194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4D2272219CE93300887194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,30 @@
 		EB4D2284219CE93300887194 /* Assignment5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4D2288219CE93300887194 /* Assignment5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment5UITests.swift; sourceTree = "<group>"; };
 		EB4D228A219CE93300887194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D2296219CEEFF00887194 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB4D2298219CF48600887194 /* SubjectListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListAPI.swift; sourceTree = "<group>"; };
+		EB4D229A219CF58B00887194 /* ClassIDsListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassIDsListAPI.swift; sourceTree = "<group>"; };
+		EB4D229C219CF90D00887194 /* SubjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectList.swift; sourceTree = "<group>"; };
+		EB4D229E219CF91A00887194 /* ClassIDsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassIDsList.swift; sourceTree = "<group>"; };
+		EB4D22A0219D01F400887194 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		EB4D22A2219D0C0F00887194 /* ClassID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassID.swift; sourceTree = "<group>"; };
+		EB4D22A4219D0FEB00887194 /* ClassDetailsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailsAPI.swift; sourceTree = "<group>"; };
+		EB4D22A6219D113300887194 /* ClassDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetails.swift; sourceTree = "<group>"; };
+		EB4D22A8219D11AB00887194 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		EB4D22C2219D261500887194 /* ResetStudentAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetStudentAPI.swift; sourceTree = "<group>"; };
+		EB4D22C4219D26EB00887194 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		EB4D22C6219D271500887194 /* ResetStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetStudent.swift; sourceTree = "<group>"; };
+		EB670F34219F7B11003C9F91 /* FindCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoursesViewController.swift; sourceTree = "<group>"; };
+		EB670F36219F8862003C9F91 /* MyClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassesViewController.swift; sourceTree = "<group>"; };
+		EB8C3489219E8B8A00D22275 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EBA0655221A63ACF002A8FD3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EBA3CBC321A3A210003496F0 /* UnregisterClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisterClassViewController.swift; sourceTree = "<group>"; };
+		EBA3CBC521A3A220003496F0 /* UnwaitlistClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwaitlistClassViewController.swift; sourceTree = "<group>"; };
+		EBE0B9DA21A0B88300CB7ECC /* CoursesFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesFoundViewController.swift; sourceTree = "<group>"; };
+		EBE0B9E021A0EEB600CB7ECC /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		EBE0B9E221A23B5800CB7ECC /* ClassDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailViewController.swift; sourceTree = "<group>"; };
+		EBE0B9E621A25D5E00CB7ECC /* RegisteredCourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredCourseCell.swift; sourceTree = "<group>"; };
+		EBE0B9E821A25DA500CB7ECC /* WaitlistedCourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistedCourseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +144,31 @@
 			isa = PBXGroup;
 			children = (
 				EB4D2268219CE92C00887194 /* AppDelegate.swift */,
-				EB4D226A219CE92C00887194 /* ViewController.swift */,
 				EB4D226C219CE92C00887194 /* Main.storyboard */,
+				EB4D2296219CEEFF00887194 /* LoginViewController.swift */,
+				EB8C3489219E8B8A00D22275 /* RegisterViewController.swift */,
+				EB670F36219F8862003C9F91 /* MyClassesViewController.swift */,
+				EBA3CBC321A3A210003496F0 /* UnregisterClassViewController.swift */,
+				EBA3CBC521A3A220003496F0 /* UnwaitlistClassViewController.swift */,
+				EB670F34219F7B11003C9F91 /* FindCoursesViewController.swift */,
+				EBE0B9DA21A0B88300CB7ECC /* CoursesFoundViewController.swift */,
+				EBE0B9E221A23B5800CB7ECC /* ClassDetailViewController.swift */,
+				EBE0B9E021A0EEB600CB7ECC /* CourseCell.swift */,
+				EBE0B9E621A25D5E00CB7ECC /* RegisteredCourseCell.swift */,
+				EBE0B9E821A25DA500CB7ECC /* WaitlistedCourseCell.swift */,
+				EBA0655221A63ACF002A8FD3 /* Student.swift */,
+				EB4D2298219CF48600887194 /* SubjectListAPI.swift */,
+				EB4D229C219CF90D00887194 /* SubjectList.swift */,
+				EB4D22A0219D01F400887194 /* Subject.swift */,
+				EB4D229A219CF58B00887194 /* ClassIDsListAPI.swift */,
+				EB4D229E219CF91A00887194 /* ClassIDsList.swift */,
+				EB4D22A2219D0C0F00887194 /* ClassID.swift */,
+				EB4D22A4219D0FEB00887194 /* ClassDetailsAPI.swift */,
+				EB4D22A6219D113300887194 /* ClassDetails.swift */,
+				EB4D22A8219D11AB00887194 /* Details.swift */,
+				EB4D22C2219D261500887194 /* ResetStudentAPI.swift */,
+				EB4D22C6219D271500887194 /* ResetStudent.swift */,
+				EB4D22C4219D26EB00887194 /* Reset.swift */,
 				EB4D226F219CE93300887194 /* Assets.xcassets */,
 				EB4D2271219CE93300887194 /* LaunchScreen.storyboard */,
 				EB4D2274219CE93300887194 /* Info.plist */,
@@ -256,8 +325,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4D226B219CE92C00887194 /* ViewController.swift in Sources */,
+				EB8C348A219E8B8A00D22275 /* RegisterViewController.swift in Sources */,
+				EBE0B9E321A23B5900CB7ECC /* ClassDetailViewController.swift in Sources */,
+				EB4D229D219CF90D00887194 /* SubjectList.swift in Sources */,
+				EB4D22A5219D0FEB00887194 /* ClassDetailsAPI.swift in Sources */,
+				EBE0B9E921A25DA500CB7ECC /* WaitlistedCourseCell.swift in Sources */,
+				EBA3CBC621A3A220003496F0 /* UnwaitlistClassViewController.swift in Sources */,
+				EB4D22C3219D261500887194 /* ResetStudentAPI.swift in Sources */,
+				EB670F37219F8862003C9F91 /* MyClassesViewController.swift in Sources */,
+				EB670F35219F7B11003C9F91 /* FindCoursesViewController.swift in Sources */,
+				EB4D229F219CF91A00887194 /* ClassIDsList.swift in Sources */,
+				EB4D22A1219D01F400887194 /* Subject.swift in Sources */,
+				EB4D22A3219D0C0F00887194 /* ClassID.swift in Sources */,
+				EB4D2297219CEEFF00887194 /* LoginViewController.swift in Sources */,
+				EBA0655321A63ACF002A8FD3 /* Student.swift in Sources */,
+				EBE0B9E721A25D5E00CB7ECC /* RegisteredCourseCell.swift in Sources */,
+				EBE0B9E121A0EEB600CB7ECC /* CourseCell.swift in Sources */,
+				EBE0B9DB21A0B88300CB7ECC /* CoursesFoundViewController.swift in Sources */,
+				EB4D22A9219D11AB00887194 /* Details.swift in Sources */,
+				EB4D22C5219D26EB00887194 /* Reset.swift in Sources */,
+				EBA3CBC421A3A210003496F0 /* UnregisterClassViewController.swift in Sources */,
+				EB4D2299219CF48600887194 /* SubjectListAPI.swift in Sources */,
+				EB4D229B219CF58B00887194 /* ClassIDsListAPI.swift in Sources */,
+				EB4D22C7219D271500887194 /* ResetStudent.swift in Sources */,
 				EB4D2269219CE92C00887194 /* AppDelegate.swift in Sources */,
+				EB4D22A7219D113300887194 /* ClassDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

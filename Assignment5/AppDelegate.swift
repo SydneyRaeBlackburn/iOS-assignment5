@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //let rootViewController = window!.rootViewController as! UINavigationController
+        //let myClassesViewController = rootViewController.topViewController as! MyClassesViewController
+        //myClassesViewController.subjects = SubjectList()
+        
         return true
     }
 
